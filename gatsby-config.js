@@ -25,13 +25,30 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: `Juhyung's blog`,
+        short_name: `Juhyung's blog`,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/favicon_310.png', // This path is relative to the root of the site.
+        icons: [{
+          src: `/favicon/favicon_16.png`,
+          sizes: `16x16`,
+          type: `image/png`,
+        }, {
+          src: `/favicon/favicon_32.png`,
+          sizes: `32x32`,
+          type: `image/png`,
+        }, {
+          src: `/favicon/favicon_96.png`,
+          sizes: `96x96`,
+          type: `image/png`,
+        }, {
+          src: `/favicon/favicon_310.png`,
+          sizes: `310x310`,
+          type: `image/png`,                    
+        }]
       },
     },
     {
