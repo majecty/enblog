@@ -45,7 +45,19 @@ module.exports = {
           resolve: `gatsby-remark-prismjs`,
         }]
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-78778924-2",
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**"],
+        // Enables Google Optimize using your container Id
+        optimizeId: "GTM-54R6RG5",
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
