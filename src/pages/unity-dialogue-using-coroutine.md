@@ -18,7 +18,7 @@ Let's begin with a pure spec that does not consider any user's input.
 
 Implementing the spec is easy.
 
-```cs
+```csharp
 IEnumerator Run()
 {
     for (int i = 0; i < texts.Count; i += 1)
@@ -47,7 +47,7 @@ However, most users do not want to read the dialogue. They want to pass the dial
 
 Let's add some code to the above code.
 
-```cs
+```csharp
 enum State
 {
     Playing,
@@ -101,7 +101,7 @@ You can find a sample project in [this link](https://github.com/majecty/Dialogue
 
 P.S: the above example does not support rich text. There is a library that supports rich text by replacing two lines. Please check this at [the link](https://github.com/majecty/Unity3dRichTextHelper)
 
-```cs
+```csharp
 for (int i = 0; i < text.RichTextLength() + 1; i += 1)
 {
     yield return new WaitForSeconds(0.05f);
