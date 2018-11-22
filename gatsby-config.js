@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'Juhyung blog',
     description: `Blog about game development`,
-    siteUrl: `https://blog.majecty.com/enblog`
+    siteUrl: `https://blog.majecty.com`
   },
   plugins: [
     'gatsby-plugin-react-helmet',
