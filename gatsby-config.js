@@ -33,19 +33,19 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/favicon_310.png', // This path is relative to the root of the site.
         icons: [{
-          src: `/favicon/favicon_16.png`,
+          src: `/enblog/favicon/favicon_16.png`,
           sizes: `16x16`,
           type: `image/png`,
         }, {
-          src: `/favicon/favicon_32.png`,
+          src: `/enblog/favicon/favicon_32.png`,
           sizes: `32x32`,
           type: `image/png`,
         }, {
-          src: `/favicon/favicon_96.png`,
+          src: `/enblog/favicon/favicon_96.png`,
           sizes: `96x96`,
           type: `image/png`,
         }, {
-          src: `/favicon/favicon_310.png`,
+          src: `/enblog/favicon/favicon_310.png`,
           sizes: `310x310`,
           type: `image/png`,                    
         }]
@@ -113,18 +113,6 @@ module.exports = {
           resolve: `gatsby-remark-prismjs`,
         }]
       }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-78778924-2",
-        // Puts tracking script in the head instead of the body
-        head: false,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**"],
-        // Enables Google Optimize using your container Id
-        optimizeId: "GTM-54R6RG5",
-      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
