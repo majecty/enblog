@@ -77,7 +77,7 @@ pagination.pagerSize = 5
     title = "Juhyung blog"
 
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "Juhyung's english blog"
       owner = ""
       keywords = ""
       copyright = ""
