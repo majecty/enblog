@@ -1,0 +1,4 @@
+baseURL = 'https://blog.majecty.com/enblog/'
+languageCode = 'en-us'
+title = 'Juhyung blog'
+theme = 'terminal'
